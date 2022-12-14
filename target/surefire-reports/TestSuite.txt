@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 44.678 s <<< FAILURE! - in TestSuite
+logOutTest(tests.MECM.LOG_IN.logOutTest)  Time elapsed: 19.966 s  <<< FAILURE!
+java.lang.AssertionError: Not Equal
+	at tests.MECM.LOG_IN.logOutTest.logOutTest(logOutTest.java:35)
+

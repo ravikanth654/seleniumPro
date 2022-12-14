@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="D:/SelleniumScripts(failed)">
+    <classes>
+      <class name="tests.MECM.LOG_IN.logOutTest">
+        <methods>
+          <include name="logOutTest"/>
+          <include name="beforeClassRun"/>
+          <include name="afterClassRun"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethodRun"/>
+        </methods>
+      </class> <!-- tests.MECM.LOG_IN.logOutTest -->
+      <class name="tests.MECM.LOG_IN.AllRightReservedTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeClassRun"/>
+          <include name="afterClassRun"/>
+          <include name="afterMethod"/>
+          <include name="afterSuiteRun"/>
+          <include name="beforeMethodRun"/>
+        </methods>
+      </class> <!-- tests.MECM.LOG_IN.AllRightReservedTest -->
+    </classes>
+  </test> <!-- D:/SelleniumScripts(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

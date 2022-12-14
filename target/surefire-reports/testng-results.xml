@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-14T18:53:16Z" name="All Test Suite" finished-at="2022-12-14T18:53:59Z" duration-ms="43303">
+    <groups>
+    </groups>
+    <test started-at="2022-12-14T18:53:16Z" name="D:/SelleniumScripts" finished-at="2022-12-14T18:53:59Z" duration-ms="43303">
+      <class name="tests.MECM.LOG_IN.AllRightReservedTest">
+        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:tests.MECM.LOG_IN.AllRightReservedTest@f381794]" started-at="2022-12-15T00:23:15Z" name="beforeSuite" finished-at="2022-12-15T00:23:16Z" duration-ms="788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6540cf1d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClassRun()[pri:0, instance:tests.MECM.LOG_IN.AllRightReservedTest@f381794]" started-at="2022-12-15T00:23:16Z" name="beforeClassRun" finished-at="2022-12-15T00:23:21Z" duration-ms="5351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassRun -->
+        <test-method is-config="true" signature="beforeMethodRun(java.lang.reflect.Method)[pri:0, instance:tests.MECM.LOG_IN.AllRightReservedTest@f381794]" started-at="2022-12-15T00:23:21Z" name="beforeMethodRun" finished-at="2022-12-15T00:23:21Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MECM.LOG_IN.AllRightReservedTest.AllRightReservedTest() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodRun -->
+        <test-method signature="AllRightReservedTest()[pri:0, instance:tests.MECM.LOG_IN.AllRightReservedTest@f381794]" started-at="2022-12-15T00:23:21Z" name="AllRightReservedTest" finished-at="2022-12-15T00:23:29Z" duration-ms="8073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllRightReservedTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.MECM.LOG_IN.AllRightReservedTest@f381794]" started-at="2022-12-15T00:23:29Z" name="afterMethod" finished-at="2022-12-15T00:23:29Z" duration-ms="106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AllRightReservedTest status=SUCCESS method=AllRightReservedTest.AllRightReservedTest()[pri:0, instance:tests.MECM.LOG_IN.AllRightReservedTest@f381794] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClassRun()[pri:0, instance:tests.MECM.LOG_IN.AllRightReservedTest@f381794]" started-at="2022-12-15T00:23:29Z" name="afterClassRun" finished-at="2022-12-15T00:23:30Z" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassRun -->
+        <test-method is-config="true" signature="afterSuiteRun()[pri:0, instance:tests.MECM.LOG_IN.AllRightReservedTest@f381794]" started-at="2022-12-15T00:23:59Z" name="afterSuiteRun" finished-at="2022-12-15T00:23:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteRun -->
+      </class> <!-- tests.MECM.LOG_IN.AllRightReservedTest -->
+      <class name="tests.MECM.LOG_IN.logOutTest">
+        <test-method is-config="true" signature="beforeClassRun()[pri:0, instance:tests.MECM.LOG_IN.logOutTest@2525ff7e]" started-at="2022-12-15T00:23:30Z" name="beforeClassRun" finished-at="2022-12-15T00:23:35Z" duration-ms="5100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassRun -->
+        <test-method is-config="true" signature="beforeMethodRun(java.lang.reflect.Method)[pri:0, instance:tests.MECM.LOG_IN.logOutTest@2525ff7e]" started-at="2022-12-15T00:23:35Z" name="beforeMethodRun" finished-at="2022-12-15T00:23:35Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MECM.LOG_IN.logOutTest.logOutTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodRun -->
+        <test-method signature="logOutTest()[pri:0, instance:tests.MECM.LOG_IN.logOutTest@2525ff7e]" started-at="2022-12-15T00:23:35Z" name="logOutTest" finished-at="2022-12-15T00:23:55Z" duration-ms="19959" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Not Equal]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Not Equal
+	at org.testng.Assert.fail(Assert.java:94)
+	at framework.util.common.Assertion.assertEqual(Assertion.java:320)
+	at tests.MECM.LOG_IN.logOutTest.logOutTest(logOutTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.MECM.LOG_IN.logOutTest@2525ff7e]" started-at="2022-12-15T00:23:55Z" name="afterMethod" finished-at="2022-12-15T00:23:55Z" duration-ms="38" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOutTest status=FAILURE method=logOutTest.logOutTest()[pri:0, instance:tests.MECM.LOG_IN.logOutTest@2525ff7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClassRun()[pri:0, instance:tests.MECM.LOG_IN.logOutTest@2525ff7e]" started-at="2022-12-15T00:23:55Z" name="afterClassRun" finished-at="2022-12-15T00:23:59Z" duration-ms="4447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassRun -->
+      </class> <!-- tests.MECM.LOG_IN.logOutTest -->
+    </test> <!-- D:/SelleniumScripts -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

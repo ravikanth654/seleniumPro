@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/SelleniumScripts">
+        <classes>
+           <!-- <class name="tests.MECM.FLEETS.SUB_FLEETS.checkClickingOnIMPORT">
+                <methods>
+                    <include name="click_import"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.checkIMPORTdownloadLink">
+                <methods>
+                    <include name="checkIMPORTdownloadLink"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.checkNoOfPages_LastDisbledPage_PreviousPage">
+                <methods>
+                    <include name="Total_SubfleetAndCheckwithPagenumbersWith10"/>
+                    <include name="checkForNextPageDisbld"/>
+                    <include name="checkpreviousPageAnd1stRow"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.checkPreviousPage_Disabled">
+                <methods>
+                    <include name="checkForPreviousPageDisbld"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.checkTotalEntries_withTotalNumOfFleets">
+                <methods>
+                    <include name="checkTotalEntries"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.export_DownloadExcel">
+                <methods>
+                    <include name="click_on_export"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.importDownloadExcel_excelName_excelData">
+                <methods>
+                    <include name="checkIMPortDownloadexcel"/>
+                    <include name="checkIMPORTdownload"/>
+                    <include name="checkIMPORTdownloadValues"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.import_EmptyFileUploading">
+                <methods>
+                    <include name="Browse_EmptyFileUploading"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.import_IsDisplayed_Isenbled">
+                <methods>
+                    <include name="import_button_Displayed"/>
+                    <include name="import_button_enabled"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.import_cancel_enbled">
+                <methods>
+                    <include name="import_cancel_enbled"/>
+                    <include name="Cancel_browse"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.import_checkSubmit_isDisplayed">
+                <methods>
+                    <include name="import_checkSubmit_isDisplayed"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.import_existingFileUploading">
+                <methods>
+                    <include name="Browse_existingFileUploading"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.import_invalidEmailFileUploading">
+                <methods>
+                    <include name="Browse_invalidEmailFileUploading"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.import_invalidFormatFileUploading">
+                <methods>
+                    <include name="Browse_invalidFormatFileUploading"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.import_invalidMobileFileUploading">
+                <methods>
+                    <include name="Browse_invalidMobileFileUploading"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.import_invalidStatusFileUploading">
+                <methods>
+                    <include name="Browse_invalidStatusFileUploading"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.import_newFileUploading">
+                <methods>
+                    <include name="Browse_newFileUploading"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.searchBy_FleetName_N_Email">
+                <methods>
+                    <include name="Search_byFleetName"/>
+                    <include name="Search_byEmail"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.search_IsDisplayed_IsEnbled">
+                <methods>
+                    <include name="Search_displayed"/>
+                    <include name="Search_enabled"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.table_Headings">
+                <methods>
+                    <include name="Table_headings"/>
+                </methods>
+            </class>
+            <class name="tests.MECM.FLEETS.SUB_FLEETS.totalCountBy_Page10_25_50">
+                <methods>
+                    <include name="Total_Subfleet_countsBy10_25_50"/>
+                </methods>
+            </class>
+            <class name="tests.Smoke.AproveMail">
+                <methods>
+                    <include name="openGmail"/>
+                    <include name="gmail"/>
+                </methods>
+            </class>
+            <class name="tests.Smoke.AssignVehicle">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="tests.moduleName.Fleet_DetailFleet_Test">
+                <methods>
+                    <include name="Login_Fleet"/>
+                    <include name="tableRowValue"/>
+                    <include name="Table_columns"/>
+                    <include name="checkStatus"/>
+                    <include name="comparerows"/>
+                    <include name="edit"/>
+                    <include name="assignVehicles"/>
+                    <include name="assignDriver"/>
+                </methods>
+            </class>-->
+   <!--         <class name="tests.moduleName.Fleet_Driver_Add_Test">
+                <methods>
+                    <include name="Login_Fleet"/>
+                    <include name="clickingOnAddDriver"/>
+                    <include name="cancel_enabled"/>
+                    <include name="cancel_Click"/>
+                    <include name="firstName_enabled"/>
+                    <include name="enter_FirstName"/>
+                    <include name="second_enabled"/>
+                    <include name="enter_secondName"/>
+                    <include name="gender_enabled"/>
+                    <include name="valuesOf_gender"/>
+                    <include name="select_gender"/>
+                    <include name="mobile_enabled"/>
+                    <include name="enter_inValidmobile"/>
+                    <include name="enter_email"/>
+                    <include name="date_enabled"/>
+                    <include name="click_Date"/>
+                    <include name="licence_enabled"/>
+                    <include name="check_licence"/>
+                    <include name="exprDate_enabled"/>
+                    <include name="click_exprDate"/>
+                    <include name="adres_enabled"/>
+                    <include name="enter_address"/>
+                    <include name="selectDoc"/>
+                    <include name="successfullyDriverCreate"/>
+                    <include name="reCheckDriver"/>
+                    <include name="editDriver"/>
+                    <include name="checkImageUpload"/>
+                </methods>
+            </class>
+            <class name="tests.moduleName.Fleet_Driver_Test">
+                <methods>
+                    <include name="Login_Fleet"/>
+                    <include name="clickingOnDrivers"/>
+                    <include name="Search_displayed"/>
+                    <include name="Search_enabled"/>
+                    <include name="Search_byName"/>
+                    <include name="Table_columns"/>
+                    <include name="Total_SubfleetAndCheckwithPagenumbersWith10"/>
+                    <include name="checkpreviousPageAnd1stRow"/>
+                    <include name="import_button_enabled"/>
+                    <include name="click_import"/>
+                    <include name="import_checkSubmit_isDisplayed"/>
+                    <include name="import_cancel"/>
+                    <include name="Cancel_browse"/>
+                    <include name="Browse_FileUploading"/>
+                    <include name="click_on_export"/>
+                </methods>
+            </class>
+            <class name="tests.moduleName.Fleet_Edit_Vehicles_Test">
+                <methods>
+                    <include name="Login_Fleet"/>
+                    <include name="clickingOnVehicles"/>
+                    <include name="clickingOnedit"/>
+                    <include name="editWindowTestVinDisable"/>
+                    <include name="editWindowTestVariantDisable"/>
+                    <include name="editWindowTestModelDisable"/>
+                    <include name="editWindowTestColorDropdown"/>
+                    <include name="editWindowTestVinDropdown"/>
+                </methods>
+            </class>
+            <class name="tests.moduleName.Fleet_Test">
+                <methods>
+                    <include name="Login_Fleet"/>
+                    <include name="Total_Subfleet_countsBy10_25_50"/>
+                    <include name="checkTotalEtries"/>
+                    <include name="Search_displayed"/>
+                    <include name="Search_enabled"/>
+                    <include name="Search_byFleetName"/>
+                    <include name="Search_byEmail"/>
+                    <include name="Table_headings"/>
+                    <include name="checkForPreviousPageDisbld"/>
+                    <include name="Total_SubfleetAndCheckwithPagenumbersWith10"/>
+                    <include name="checkForNextPageDisbld"/>
+                    <include name="checkpreviousPageAnd1stRow"/>
+                    <include name="import_button_Displayed"/>
+                    <include name="import_button_enabled"/>
+                    <include name="click_import"/>
+                    <include name="import_checkSubmit_isDisplayed"/>
+                    <include name="import_cancel_enbled"/>
+                    <include name="Cancel_browse"/>
+                    <include name="Browse_existingFileUploading"/>
+                    <include name="Browse_invalidMobileFileUploading"/>
+                    <include name="Browse_invalidEmailFileUploading"/>
+                    <include name="Browse_invalidStatusFileUploading"/>
+                    <include name="Browse_invalidFormatFileUploading"/>
+                    <include name="Browse_EmptyFileUploading"/>
+                    <include name="Browse_newFileUploading"/>
+                    <include name="checkIMPORTdownloadLink"/>
+                    <include name="checkIMPortDownloadexcel"/>
+                    <include name="checkIMPORTdownload"/>
+                    <include name="checkIMPORTdownloadValues"/>
+                    <include name="click_on_export"/>
+                </methods>
+            </class>
+            <class name="tests.moduleName.Fleet_Test_AddNewFleet">
+                <methods>
+                    <include name="Login_Fleet"/>
+                    <include name="check_addFleetenbled"/>
+                    <include name="ClickOnAddFleet"/>
+                    <include name="Clickoncncl"/>
+                    <include name="checkNewFleet_Username"/>
+                    <include name="check_invalidmobileNumberLessthan10"/>
+                    <include name="check_invalidmobileNumberMoreThan10"/>
+                    <include name="check_mobileNumberField"/>
+                    <include name="check_invalidEmail"/>
+                    <include name="check_emailField"/>
+                    <include name="check_Address"/>
+                    <include name="assigning"/>
+                    <include name="swapingVehicles"/>
+                    <include name="assigndriver"/>
+                    <include name="driverswap"/>
+                    <include name="check_ClickOnsave"/>
+                    <include name="totalrowsCount"/>
+                    <include name="verifyAssignedVehiclecount"/>
+                    <include name="verifyAssignedDrivers"/>
+                    <include name="customerUpdate"/>
+                    <include name="removeAssignedVehicles"/>
+                    <include name="removeAssigneddriver"/>
+                </methods>
+            </class>
+            <class name="tests.moduleName.Fleet_Test_EditFleet">
+                <methods>
+                    <include name="Login_Fleet"/>
+                    <include name="clickOnfleetedit"/>
+                    <include name="editfleetName"/>
+                    <include name="editMobileNumberField"/>
+                    <include name="editEmailField"/>
+                    <include name="check_Address"/>
+                </methods>
+            </class>-->
+           <!-- <class name="tests.moduleName.Fleet_Vehicles_Test">
+                <methods>
+                    <include name="Login_Fleet"/>
+                    <include name="clickingOnVehicles"/>
+                    <include name="totalVehicles"/>
+                    <include name="Search_displayed"/>
+                    <include name="Search_enabled"/>
+                    <include name="Search_byLicencePlate"/>
+                    <include name="Search_byVin"/>
+                    <include name="Table_columns"/>
+                    <include name="click_on_export"/>
+                    <include name="clickingOnRow"/>
+                    <include name="comparingValues"/>
+                    <include name="totalRowCount"/>
+                </methods>
+            </class>-->
+        </classes>
+    </test>
+</suite>

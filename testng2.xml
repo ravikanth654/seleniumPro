@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/SelleniumScripts">
+        <packages>
+           <!-- <package name="tests.MECM.ALERTS.VEHICLES_ALERT"></package>
+            <package name="tests.MECM.ALERTS.OPERATIONAL_ALERTS"></package>
+            <package name="tests.MECM.DASH_BOARD"></package>
+            <package name="tests.MECM.FLEETS.DRIVERS.ASSIGN_VEHICLES_EDIT"></package>
+            <package name="tests.MECM.FLEETS.DRIVERS.DRIVER_TEST"></package>
+            <package name="tests.MECM.FLEETS.DRIVERS.DRIVERS_ADD_NEW_TEST"></package>
+            <package name="tests.MECM.FLEETS.DRIVERS.DRIVERS_DETAIL_TEST"></package>
+            <package name="tests.MECM.FLEETS.SUB_FLEETS.FlEET_EDIT_TEST"></package>
+            <package name="tests.MECM.FLEETS.SUB_FLEETS.FLEET_DETAIL_TEST"></package>
+            <package name="tests.MECM.FLEETS.SUB_FLEETS.FLEET_ADD_NEW_TEST"></package>
+            <package name="tests.MECM.FLEETS.SUB_FLEETS.FLEET_TEST"></package>
+            <package name="tests.MECM.FLEETS.VEHICLES.VEHICLES_EDIT_TEST"></package>
+            <package name="tests.MECM.FLEETS.VEHICLES.VEHICLES_N_DETAILS_TEST"></package>-->
+            <package name="tests.MECM.LOG_IN"></package>
+            <!--<package name="tests.MECM.MAPS.PATH_TRACKING"></package>
+            <package name="tests.MECM.MAPS.HEAT_MAP"></package>
+            <package name="tests.MECM.MAPS.GEO_FENCING"></package>
+            <package name="tests.MECM.NOTIFICATIONS"></package>
+            <package name="tests.MECM.TRIPS.COMMUTER.COMMUTER_EDIT"></package>
+            <package name="tests.MECM.TRIPS.COMMUTER.COMMUTER_ADD"></package>
+            <package name="tests.MECM.TRIPS.COMMUTER.COMMUTER_TEST"></package>-->
+
+
+        </packages>
+    </test>
+</suite>

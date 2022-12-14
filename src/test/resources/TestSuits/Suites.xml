@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="MECM" verbose="1" configfailurepolicy="continue">
+    <test name="suit name" preserve-order="true" configfailurepolicy="continue">
+        <packages>
+        <package name = "tests.MECM.LOG_IN"></package>
+            <package name = "tests.MECM.DASH_BOARD"></package>
+            <package name = "tests.MECM.MAPS.GEO_FENCING"></package>
+            <package name = "tests.MECM.MAPS.HEAT_MAP"></package>
+            <package name = "tests.MECM.MAPS.PATH_TRACKING"></package>
+             <package name = "tests.MECM.FLEETS.DRIVERS.DRIVERS_DETAIL_TEST"></package>
+        <package name = "tests.MECM.FLEETS.DRIVERS.DRIVERS_ADD_NEW_TEST"></package>
+        <package name = "tests.MECM.FLEETS.DRIVERS.ASSIGN_VEHICLES_EDIT"></package>
+        <package name = "tests.MECM.FLEETS.DRIVERS.DRIVER_TEST"></package>
+            <package name = "tests.MECM.FLEETS.VEHICLES.VEHICLES_N_DETAILS_TEST"></package>
+            <package name = "tests.MECM.FLEETS.VEHICLES.VEHICLES_EDIT_TEST"></package>
+            <package name = "tests.MECM.FLEETS.SUB_FLEETS.FLEET_TEST"></package>
+            <package name = "tests.MECM.FLEETS.SUB_FLEETS.FLEET_ADD_NEW_TEST"></package>
+            <package name = "tests.MECM.FLEETS.SUB_FLEETS.FlEET_EDIT_TEST"></package>
+            <package name = "tests.MECM.FLEETS.SUB_FLEETS.FLEET_DETAIL_TEST"></package>
+            <package name = "tests.MECM.TRIPS.COMMUTER.COMMUTER_ADD"></package>
+            <package name = "tests.MECM.TRIPS.COMMUTER.COMMUTER_EDIT"></package>
+            <package name = "tests.MECM.TRIPS.COMMUTER.COMMUTER_TEST"></package>
+            <package name = "tests.MECM.TRIPS.INTRIP.INTRIPS_DETAILS_TEST"></package>
+            <package name = "tests.MECM.TRIPS.INTRIP.INTRIPS_TEST"></package>
+            <package name = "tests.MECM.TRIPS.TRIP_ADHOC.TRIP_ADHOC_DETAILS_TEST"></package>
+            <package name = "tests.MECM.TRIPS.TRIP_ADHOC.TRIP_ADHOC_TEST"></package>
+            <package name = "tests.MECM.TRIPS.TRIP_ADHOC.TRIP_APPROVALS_TRIP_SCHEDULING_Adhoc"></package>
+            <package name = "tests.MECM.ALERTS.OPERATIONAL_ALERTS"></package>
+            <package name = "tests.MECM.ALERTS.VEHICLES_ALERT"></package>
+            <package name = "tests.MECM.NOTIFICATIONS"></package>
+        </packages>
+    </test>
+</suite>
